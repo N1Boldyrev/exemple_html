@@ -1,0 +1,26 @@
+.wrapper_foo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 99px;
+    padding-bottom: 98px;
+    background: #141414;
+    color: white;
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    color: #8f8f8f;
+    font-size: 15px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.col .headline{
+    padding-bottom: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+}
