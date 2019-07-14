@@ -1,15 +1,9 @@
+
 .about_us{
-    margin-top: 201px;
     background: white;
-    padding-top: 101px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 100px;
-}
-
-.about_us .headline{
-    margin-left: 50px;
 }
 .about_us .inner_text{
     text-align: center;
@@ -17,6 +11,68 @@
     font-weight: 400;
     color: #787878;
     font-size: 15px;
+}
+
+.professional_skills .inner_text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+hr{
+    border: none;
+    height: 3px; 
+    margin: 0;
+    margin-top: 19px;
+}
+
+.unprogress{
+    background: #d8d8d8;
+}
+
+.progress{
+    background: #09d3cc;
+}
+
+.progressbar{
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width:420px){
+    .about_us{
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .about_us .inner_text{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .professional_skills{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .professional_skills .inner_text{
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    hr{
+        margin-bottom: 19px;
+    }
+}
+
+@media screen and (min-width:800px){
+.about_us{
+    margin-top: 201px;
+    padding-top: 101px;
+    padding-bottom: 100px;
+}
+
+.about_us .headline{
+    margin-left: 50px;
+}
+.about_us .inner_text{
     padding-top: 41px;
     padding-bottom: 41px;
 }
@@ -33,27 +89,6 @@
 }
 
 .professional_skills .inner_text{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 12px;
     padding-top: 41px;
 }
-
-hr{
-    border: none;
-    height: 3px; 
-    margin: 0;
-    margin-top: 19px;
-}
-.unprogress{
-    background: #d8d8d8;
-}
-
-.progress{
-    background: #09d3cc;
-}
-
-.progressbar{
-    display: flex;
-    flex-direction: row;
 }

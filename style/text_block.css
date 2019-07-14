@@ -8,15 +8,41 @@
 }
 
 .text_block .inner_text{
-    padding-top: 181px;
-    padding-bottom: 40px;
     text-align: center;
-    font-size: 24px;
     font-weight: 700; 
 }
 
 .text_block .author_name{
-    padding-bottom: 179px;
     font-size: 12px;
     font-weight: 500;
+}
+
+@media screen and (max-width:420px){
+    .text_block{
+        padding: 0 40px;
+    }
+    .text_block .inner_text{
+        padding-top: 40px;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+    .text_block .author_name{
+    padding-bottom: 40px;
+    }
+}
+
+@media screen and (min-width:800px){
+    .text_block .inner_text{
+        padding-top: 181px;
+        font-size: 24px;
+        padding-bottom: 40px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700; 
+    }
+
+    .text_block .author_name{
+        padding-bottom: 179px;
+    }
+
 }
