@@ -1,6 +1,9 @@
 body{
     padding: 0;
     margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
     background:#e9e9e9;
 }
 
@@ -40,7 +43,7 @@ button{
     border: none;
 }
 
-@media screen and (max-width:420px){
+@media screen and (max-width:411px){
     .navigation{
         display: flex;
         flex-direction: column;
@@ -49,10 +52,13 @@ button{
     }
     .navigation a{
         padding-top: 10px;
+        font-size: 15px;
     }
 
     .head_text{
         padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .headline{
@@ -61,12 +67,12 @@ button{
     }
 
     .inner_head_text{
-        padding-top: 5px;
+        padding-top: 25px;
     text-align: center;
 
     }
     button{
-        margin-top: 10px;
+        margin-top: 20px;
         margin-left: 25%;
     }
 }

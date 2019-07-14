@@ -38,11 +38,11 @@ hr{
     display: flex;
     flex-direction: row;
 }
-@media screen and (max-width:420px){
+@media screen and (max-width:411px){
     .about_us{
-        margin-top: 30px;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        margin-top: 50px;
+        padding-top: 70px;
+        padding-bottom: 70px;
     }
     .about_us .inner_text{
         padding-top: 10px;
